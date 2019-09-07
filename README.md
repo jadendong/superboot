@@ -1,2 +1,2 @@
-# super-boot
+# superboot
 a base aliyun ops platform
