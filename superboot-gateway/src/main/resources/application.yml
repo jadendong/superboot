@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.dev.jadendong.com:8848
+    gateway:
+      discovery:
+        locator:
+          # 让 gateway 通过服务发现，找到其他的微服务
+          enabled: true

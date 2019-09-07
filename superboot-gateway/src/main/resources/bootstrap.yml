@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: superboot-gateway
+server:
+  port: 9999

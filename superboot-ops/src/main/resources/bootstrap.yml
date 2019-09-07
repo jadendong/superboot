@@ -1,0 +1,11 @@
+server:
+  port: 0
+spring:
+  application:
+    name: superboot-ops
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.dev.jadendong.com:8848
